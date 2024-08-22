@@ -24,7 +24,7 @@ jobs:
     # Step to deploy the application to Azure Web App
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: 'a0a30499-8e4f-491b-b9ff-1a61d1cc7694'
+        azureSubscription: 'onlinedotnetcalculator'
         appType: 'webAppLinux'
         appName: 'gab-webapp'
         package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
