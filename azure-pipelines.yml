@@ -1,4 +1,4 @@
-triggers:
+trigger:
 - main
 pool:
  vmImage: 'ubuntu-latest'
